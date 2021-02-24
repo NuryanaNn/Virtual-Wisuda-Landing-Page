@@ -1,0 +1,52 @@
+.jumbotron{
+    background-image: url(jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.jumbotron h3{
+    color: white;
+    font-weight: bold;
+}
+
+.tombol{
+    border-radius: 100px;
+}
+
+.program{
+    text-align: justify;
+}
+
+.program img{
+    width: 250px;
+    height: 250px;
+}
+
+.program h4{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .program{
+        text-align: left;
+    }
+
+    .program img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .card1{
+        margin-top: 100px;
+    }
+
+   
+}
